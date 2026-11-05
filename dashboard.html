@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Adopciones</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="dashboard.js" type="module" defer></script>
+</head>
+<body>
+    <header class="navbar">
+        <h1 id="user-welcome">Cargando...</h1>
+        <button id="btn-logout">Cerrar Sesion</button>
+    </header>
+    <main class="container">
+        <section id="seccion-trabajador" class="oculto">
+            <h2>Gestion de adopciones</h2>
+            <button id="btn-abrir-modal">Cargar Adopcion</button>
+        </section>
+        <section id="seccion-cliente" class="oculto">
+            <h2>Mascotas Adoptadas</h2>
+            <div id="contenedor-tarjetas" class="grid-tarjetas"></div>
+        </section>
+    </main>
+
+    <div id="modal-adopcion" class="modal oculto">
+        <div class="modal-content">
+            <span id="btn-cerrar-modal" class="close">&times;</span>
+            <h3>Cargar Adopcion</h3>
+            <form id="form-adopcion">
+                <label for="select-mascota">Seleccionar Mascota:</label>
+                <select id="select-mascota"></select>
+                <label for ="select-cliente">Cliente:</label>
+                <select id="select-cliente"></select>
+                <label for="fecha-adopcion">Fecha de Adopcion:</label>
+                <input type="date" id="fecha-adopcion" required>
+                <button type="submit">Cargar Adopcion</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

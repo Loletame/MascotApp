@@ -1,0 +1,83 @@
+{
+    "usuarios": [
+        {
+            "id": 1,
+            "username": "empleado",
+            "pass": "1234",
+            "rol": "Trabajador",
+            "persona": {
+                "nombre": "Carlos",
+                "apellido": "Gómez",
+                "DNI": "30111222",
+                "numeroLegajo": "LEG-101"
+            }
+        },
+        {
+            "id": 2,
+            "username": "maria",
+            "pass": "1234",
+            "rol": "Cliente",
+            "persona": {
+                "nombre": "Maria",
+                "apellido": "Martínez",
+                "DNI": "35444555",
+                "nroDeSocio": "SOC-201"
+            }
+        },
+        {
+            "id": 3,
+            "username": "nicolas",
+            "pass": "1234",
+            "rol": "Cliente",
+            "persona": {
+                "nombre": "Nicolas",
+                "apellido": "Pérez",
+                "DNI": "32111000",
+                "nroDeSocio": "SOC-202"
+            }
+        }
+    ],
+    "clientes": [
+        {
+            "nombre": "Maria",
+            "apellido": "Martínez",
+            "DNI": "35444555",
+            "nroDeSocio": "SOC-201"
+        },
+        {
+            "nombre": "Nicolas",
+            "apellido": "Pérez",
+            "DNI": "32111000",
+            "nroDeSocio": "SOC-202"
+        }
+    ],
+    "mascotas": [
+        {
+            "idAnimal": 1,
+            "tipo": "Perro",
+            "nombre": "Rex",
+            "peso": "15",
+            "tamaño": "Grande",
+            "dueñoNroSocio": "SOC-201",
+            "fechaAdopcion": "2026-05-10"
+        },
+        {
+            "idAnimal": 2,
+            "tipo": "Gato",
+            "nombre": "Michi",
+            "peso": "4",
+            "tamaño": "Pequeño",
+            "dueñoNroSocio": "SOC-202",
+            "fechaAdopcion": "2026-05-10"
+        },
+        {
+            "idAnimal": 3,
+            "tipo": "Perro",
+            "nombre": "Firulais",
+            "peso": "10",
+            "tamaño": "Mediano",
+            "dueñoNroSocio": null,
+            "fechaAdopcion": null
+        }
+    ]
+}
